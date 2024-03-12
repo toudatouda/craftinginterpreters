@@ -918,7 +918,7 @@ own type.
 
 There we go. Now we can define operations on expressions without having to muck
 with the classes or our generator script. Compile and run this generator script
-to output an updated "Expr.java" file. It contains a generated Visitor
+to output an updated "Expr.java" file. [compile: (at doc java) javac com/craftinginterpreters/tool/GenerateAst.java; run: (at doc java) java com.craftinginterpreters.tool.GenerateAst com.craftinginterpreters.lox] It contains a generated Visitor
 interface and a set of expression node classes that support the Visitor pattern
 using it.
 
